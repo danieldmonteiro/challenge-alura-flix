@@ -1,0 +1,151 @@
+{
+  "data-carrusel": [
+    {
+      "id": "FR-00",
+      "formacion": "FRONT END",
+      "color": "#6bd1ff",
+      "videos": [
+        {
+          "titulo": "Video Front",
+          "urlVideos": "https://www.youtube.com/watch?v=PztCEdIJITY",
+          "urlImagen": "https://img.youtube.com/vi/PztCEdIJITY/maxresdefault.jpg",
+          "descripcion": "Video Front",
+          "id": 1
+        },
+        {
+          "titulo": "Video Front",
+          "urlVideos": "https://www.youtube.com/watch?v=GJfOSoaXk4s",
+          "urlImagen": "https://img.youtube.com/vi/GJfOSoaXk4s/maxresdefault.jpg",
+          "descripcion": "Video Front",
+          "id": 2
+        },
+        {
+          "titulo": "Video Front",
+          "urlVideos": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+          "urlImagen": "https://img.youtube.com/vi/rpvrLaBQwgg/maxresdefault.jpg",
+          "descripcion": "Video Front",
+          "id": 3
+        },
+        {
+          "titulo": "Video Front",
+          "urlVideos": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+          "urlImagen": "https://img.youtube.com/vi/rpvrLaBQwgg/maxresdefault.jpg",
+          "descripcion": "Video Front",
+          "id": 4
+        },
+        {
+          "titulo": "Video Front",
+          "urlVideos": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+          "urlImagen": "https://img.youtube.com/vi/rpvrLaBQwgg/maxresdefault.jpg",
+          "descripcion": "Video Front",
+          "id": 5
+        },
+        {
+          "titulo": "Video Front",
+          "urlVideos": "https://www.youtube.com/watch?v=UuAX5azcvDQ",
+          "urlImagen": "https://img.youtube.com/vi/UuAX5azcvDQ/maxresdefault.jpg",
+          "descripcion": "Video Front",
+          "id": 6
+        }
+      ]
+    },
+    {
+      "id": "BA-00",
+      "formacion": "Back End",
+      "color": "#00C86F",
+      "videos": [
+        {
+          "titulo": "Video Back End",
+          "urlVideos": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+          "urlImagen": "https://img.youtube.com/vi/t-iqt1b2qqk/maxresdefault.jpg",
+          "descripcion": "Video Back End",
+          "id": 7
+        },
+        {
+          "titulo": "Video",
+          "urlVideos": "https://www.youtube.com/watch?v=FqztWwPIrKo",
+          "urlImagen": "https://img.youtube.com/vi/FqztWwPIrKo/maxresdefault.jpg",
+          "descripcion": "Video",
+          "id": 8
+        },
+        {
+          "titulo": "Video",
+          "urlVideos": "https://www.youtube.com/watch?v=EoPvlE85XAQ",
+          "urlImagen": "https://img.youtube.com/vi/EoPvlE85XAQ/maxresdefault.jpg",
+          "descripcion": "Video",
+          "id": 9
+        },
+        {
+          "titulo": "Video",
+          "urlVideos": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+          "urlImagen": "https://img.youtube.com/vi/t-iqt1b2qqk/maxresdefault.jpg",
+          "descripcion": "Video",
+          "id": 10
+        },
+        {
+          "titulo": "Video",
+          "urlVideos": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+          "urlImagen": "https://img.youtube.com/vi/t-iqt1b2qqk/maxresdefault.jpg",
+          "descripcion": "Video",
+          "id": 11
+        },
+        {
+          "titulo": "Video",
+          "urlVideos": "https://www.youtube.com/watch?v=cLLKVd5CNLc",
+          "urlImagen": "https://img.youtube.com/vi/cLLKVd5CNLc/maxresdefault.jpg",
+          "descripcion": "Video",
+          "id": 12
+        }
+      ]
+    },
+    {
+      "id": "IN-00",
+      "formacion": "Innovación y Gestión",
+      "color": "#FE8C2A",
+      "videos": [
+        {
+          "titulo": "Video Innovación",
+          "urlVideos": "https://www.youtube.com/watch?v=vhwspfvI52k",
+          "urlImagen": "https://img.youtube.com/vi/vhwspfvI52k/maxresdefault.jpg",
+          "descripcion": "Video Innovación",
+          "id": 13
+        },
+        {
+          "titulo": "Video",
+          "urlVideos": "https://www.youtube.com/watch?v=YhR7Zp8NUzE",
+          "urlImagen": "https://img.youtube.com/vi/YhR7Zp8NUzE/maxresdefault.jpg",
+          "descripcion": "Video",
+          "id": 14
+        },
+        {
+          "titulo": "Video",
+          "urlVideos": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+          "urlImagen": "https://img.youtube.com/vi/6N3OkLCfK-0/maxresdefault.jpg",
+          "descripcion": "Video",
+          "id": 15
+        },
+        {
+          "titulo": "Video",
+          "urlVideos": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+          "urlImagen": "https://img.youtube.com/vi/6N3OkLCfK-0/maxresdefault.jpg",
+          "descripcion": "Video",
+          "id": 16
+        },
+        {
+          "titulo": "Video",
+          "urlVideos": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+          "urlImagen": "https://img.youtube.com/vi/6N3OkLCfK-0/maxresdefault.jpg",
+          "descripcion": "Video",
+          "id": 17
+        },
+        {
+          "titulo": "Video",
+          "urlVideos": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+          "urlImagen": "https://img.youtube.com/vi/6N3OkLCfK-0/maxresdefault.jpg",
+          "descripcion": "Video",
+          "id": 18
+        }
+      ]
+    }
+  ]
+}

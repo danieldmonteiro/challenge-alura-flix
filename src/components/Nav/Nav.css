@@ -1,0 +1,29 @@
+/* .pepe {
+  color: green;
+  background-color: red;
+  &:hover {
+    background-color: goldenrod;
+    color: white !important;
+    border: 32px solid purple !important;
+  }
+} */
+
+#botoes {
+  display: flex;
+  gap: 1rem;
+}
+
+.custom-button {
+  width: 11.25rem;
+  height: 3.375rem;
+  border: 2px solid white;
+  font-weight: 600;
+  color: white;
+  &:hover {
+    color: #c2c2c2 !important;
+    border: 2px solid #c2c2c2 !important;
+  }
+  @media (max-width: 480px) {
+    display: none;
+  }
+}
