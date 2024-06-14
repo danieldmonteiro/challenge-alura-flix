@@ -9,6 +9,7 @@ const ContainerVideo = styled.div`
     color: #fff;
     text-align: center;
     margin: 0;
+    font-size: 3.75rem;
     
   }
   h3 {
@@ -16,6 +17,14 @@ const ContainerVideo = styled.div`
     color: #fff;
     text-align: center;
     margin: 0;
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    padding: 0.5625rem 0 3.75rem 1.8rem;
+    color: #fff;
+    font-size: 2.25rem;
+  
   }
 `;
 
@@ -24,6 +33,7 @@ export const NewVideo = () => {
     <ContainerVideo>
       <h1>NOVO VÍDEO</h1>
       <h3>COMPLETE O FORMULÁRIO PARA CRIAR UM NOVO CARD DE VÍDEO</h3>
+      <h2>Criar Card</h2>
       <Formulario></Formulario>
     </ContainerVideo>
   );

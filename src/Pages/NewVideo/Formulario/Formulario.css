@@ -83,9 +83,7 @@
     }
   }
 }
-/*
-El selector .custom-campo-select .ant-select-selector:focus funciona porque específicamente se aplica cuando el elemento con la clase .custom-campo-select está enfocado (:focus). Además, .custom-campo-select .ant-select-focused .ant-select-selector también funciona porque Ant Design agrega la clase .ant-select-focused al elemento cuando está enfocado.
-*/
+
 .custom-campo-select .ant-select-selector:focus,
 .custom-campo-select .ant-select-focused .ant-select-selector {
   box-shadow: inset 0 0 0 1px #e5e5e5 !important;
@@ -102,4 +100,33 @@ El selector .custom-campo-select .ant-select-selector:focus funciona porque espe
 
 :where(.css-dev-only-do-not-override-18iikkb).ant-select-status-error:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer) .ant-select-selector {
   border-color: #ff7875 !important;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-btn-primary {
+  
+  background-color: transparent;
+  width: 11.25rem;
+  height: 3.375rem;
+  border: 2px solid white;
+  font-weight: 600;
+  color: white;
+  
+  &:hover {
+    color: #c2c2c2 !important;
+    border: 2px solid #c2c2c2 !important;
+    
+  }
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-btn-default {
+  background-color: transparent;
+  width: 11.25rem;
+  height: 3.375rem;
+  border: 2px solid white;
+  font-weight: 600;
+  color: white;
+  &:hover {
+    color: #c2c2c2 !important;
+    border: 2px solid #c2c2c2 !important;
+  }
 }

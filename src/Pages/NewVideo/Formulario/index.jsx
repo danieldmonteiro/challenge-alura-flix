@@ -8,7 +8,7 @@ import { createNuevoVideo, listDataCarrusel } from "../../../Api/Apicito";
 import {
   CampoAreaTexto,
   CampoCategoria,
-  CampoSeguridad,
+  //CampoSeguridad,
   CampoTitulo,
   CampoUrlImagen,
   CampoUrlVideo,
@@ -39,6 +39,8 @@ const ContainerBtn = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3.75rem;
+  margin-bottom: 2.6rem;
   @media (max-width: 430px) {
     /* Cuando la pantalla sea más pequeña que 430px */
     flex-direction: column; /* Cambia a diseño de columna */
@@ -47,7 +49,8 @@ const ContainerBtn = styled.div`
 
 const ContainerBtnLeft = styled.div`
   display: flex;
-  gap: 20px;
+  gap: 1.875rem;
+  
   @media (max-width: 430px) {
     width: 100%;
     justify-content: space-between;
@@ -98,13 +101,13 @@ export const Formulario = () => {
 
         const response = await createNuevoVideo(category);
         console.log(response); // Resposta do POST
-        message.success("Vídeo enviado corretamente");
+        message.success("Vídeo enviado corretamente!");
       } else {
         message.error("Formulário com dados duplicados");
       }
     } else {
       
-      message.error("Categoraa não encontrada no dataCarrusel");
+      message.error("Categoria não encontrada!");
     }
   };
 
@@ -127,7 +130,7 @@ export const Formulario = () => {
         <Campo
           name="titulo"
           rules={CampoTitulo}
-          textPlaceholder={"Título"}
+          textPlaceholder={"Digite o título"}
           tamanio={"large"}
           clase={"custom-campo"}
           maxLength={50}
@@ -135,21 +138,19 @@ export const Formulario = () => {
         <Campo
           name="linkVideo"
           rules={CampoUrlVideo}
-          textPlaceholder={"Link do vídeo"}
+          textPlaceholder={"Digite o link do vídeo"}
           tamanio={"large"}
           clase={"custom-campo"}
         ></Campo>
         <Campo
           name="linkImg"
           rules={CampoUrlImagen}
-          textPlaceholder={
-            "Link da imagem do vídeo, exemplo: https://img.youtube.com/vi/PztCEdIJITY/maxresdefault.jpg"
-          }
+          textPlaceholder={"Digite o link da imagem do vídeo"}
           tamanio={"large"}
           clase={"custom-campo"}
         ></Campo>
         <CampoSelect
-          placeholder={"Escolha uma categoria"}
+          placeholder={"Selecione uma categoria"}
           clase={"custom-campo-select"}
           rules={CampoCategoria}
           name={"formacion"}
@@ -163,36 +164,36 @@ export const Formulario = () => {
         <AreaTexto
           name="descripcion"
           rules={CampoAreaTexto}
-          textPlaceholder={"Descrição"}
+          textPlaceholder={"Sobre o que é esse vídeo?"}
           size={"large"}
           showCount={true}
           maxLength={100}
         ></AreaTexto>
-        <Campo
+        {/* <Campo
           name="seguridad"
           rules={CampoSeguridad}
           textPlaceholder={"Código de segurança"}
           tamanio={"large"}
           clase={"custom-campo"}
-        ></Campo>
+        ></Campo> */}
       </InputContainer>
       <ContainerBtn>
         <ContainerBtnLeft>
-          <Boton
+          <Boton 
             size={"large"}
-            text={"Guardar"}
+            text={"GUARDAR"}
             type={"primary"}
             htmlTipo={"submit"}
           ></Boton>
           <Boton
             size={"large"}
-            text={"Limpar"}
+            text={"LIMPAR"}
             type={"default"}
             htmlTipo={"button"}
             onClick={HandleOnReset}
           ></Boton>
         </ContainerBtnLeft>
-        <ContainerBtnRight>
+        {/* <ContainerBtnRight>
           <Link to={"/newcategory"}>
             <Boton
               size={"large"}
@@ -200,7 +201,7 @@ export const Formulario = () => {
               type={"primary"}
             ></Boton>
           </Link>
-        </ContainerBtnRight>
+        </ContainerBtnRight> */}
       </ContainerBtn>
     </FormContainer>
   );
