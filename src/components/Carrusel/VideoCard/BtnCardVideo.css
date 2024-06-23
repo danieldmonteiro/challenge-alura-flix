@@ -1,0 +1,25 @@
+/* #btnCardVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    color: white;
+    
+} */
+
+
+#btnDeletar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+    
+}
+
+#btnEditar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

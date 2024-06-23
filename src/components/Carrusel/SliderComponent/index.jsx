@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../SliderComponent/SliderComponent.css";
 
 const settings = {
   dots: false,
@@ -11,6 +12,7 @@ const settings = {
   slidesToScroll: 3,
   initialSlide: 0,
   vertical: false,
+  variableHeight: true,
   responsive: [
     {
       breakpoint: 1024,
